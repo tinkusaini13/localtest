@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Create Empty Files') {
             steps {
-                sh 'touch /test/file{1..10}.txt'
+                sh 'touch /test/mydata/file{1..10}.txt'
             }
         }
     }
