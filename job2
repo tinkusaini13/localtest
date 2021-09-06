@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Create a Directory into /test/') {
+            steps {
+                sh 'mkdir /test/mydata/'
+            }
+        }
+    }
+}
